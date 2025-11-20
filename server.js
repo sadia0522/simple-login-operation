@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const appRoute = require('./app');
 const DBconection = require('./src/config/dbConnect');
-const { PORT } = require("./src/config/envconfig");
+const { PORT}  = require("..git/src/config/envconfig");
 
 
 app.use(express.json());
